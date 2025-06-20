@@ -1,3 +1,15 @@
+# Verktøy for å hente ut metrikks for sprinter
+
+Dette er et verktøy laget for å enklere hente ut bestemte metrikks for sprinter som er laget i Jira. Spesifikt for Autobal prosjektet i Statnett. 
+
+I stedet for å føre sprinten manuelt i et excel ark kan man bruke en JQL spørring for å eksportere sakene slik at man raskere kan få de tallene man er ute etter. 
+
+Eksempel på JQL spørring:
+```
+sprint = 0000 AND type NOT IN ("Sub-test-execution", Sprinttest)
+```
+
+
 # sv
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
